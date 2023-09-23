@@ -1,0 +1,30 @@
+ <ul> 
+  <li><a routerLink="/customer">Customer</a></li>
+  <li><a routerLink="/order">Order</a></li>
+  <li><a routerLink="/reactiveForm">Reactive</a></li>
+  <li><a routerLink="/templateDrivenForm">Template Driven</a></li>
+</ul>
+
+<!-- <div> 
+  <input type="radio" name="color" (click)="color='Green'"> Green<br>
+  <input type="radio" name="color" (click)="color='Red'"> Red <br>
+  <p [appHighlight]="color"> Hover Me !! </p>
+</div> -->
+
+
+<router-outlet> </router-outlet> 
+ <!--<course-data [courseData]="courses[1]" (courseEmitter)="courseClicked($event)">
+  <course-image [item]="courses[3]"></course-image>
+   <course-image [item]="courses[2]"></course-image> 
+</course-data>-->
+<!-- <course-data [courseData]="courses[3]" (courseEmitter)="courseClicked($event)"> </course-data> 
+<course-data *ngFor="let course of courses" [courseData]="course" (courseEmitter)="courseClicked($event)"> </course-data>
+
+<p>{{40|uSDINR:100}} </p>
+<p>{{price|currency:'GBP'}} </p>
+
+<div *ngFor="let c of courses|slice:0:2">
+  {{c.key+" : "+c.value}}   
+ 
+ 
+</div>-->

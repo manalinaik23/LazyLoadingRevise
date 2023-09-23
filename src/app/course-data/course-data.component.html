@@ -1,0 +1,28 @@
+
+
+<table> 
+    <thead> 
+        <tr>
+            <th> </th>
+            <th>id </th>
+            <th>description</th>
+            <th>icon</th>
+            <th>longDescription</th>
+            <th>category </th>
+            <th>lessonsCount </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td><button (click)="courseClick()">Submit </button></td>
+            <td><p>{{courseData.id}}</p> </td>
+            <td><p>{{courseData.description}}</p> </td>
+            <td><ng-content> </ng-content></td>
+            <td><p>{{courseData.longDescription}}</p> </td>
+            <td><p>{{courseData.category}}</p></td>
+            <td><p>{{courseData.lessonsCount}}</p> </td>
+        </tr>
+    </tbody>
+</table>
+
